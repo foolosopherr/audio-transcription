@@ -5,12 +5,12 @@ st.title('Audio transcription app')
 
 audio = st.file_uploader('Upload your audio file', type=['mp3', 'wav', 'm4a'])
 
-@st.cache
-def load_model():
-    model = whisper.load_model('base')
-    return model
+# @st.cache
+# def load_model():
+#     model = 
+#     return model
 
-model = load_model()
+model = whisper.load_model('base')
 
 if model:
     st.write('Whisper model is loaded')
