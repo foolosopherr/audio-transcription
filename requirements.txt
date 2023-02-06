@@ -1,2 +1,2 @@
 streamlit==1.15.1
-pip install git+https://github.com/openai/whisper.git
+git+https://github.com/openai/whisper.git
